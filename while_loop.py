@@ -55,7 +55,7 @@ def last_vowel(s):
     >>> last_vowel("pfft")
     None
     """
-    i = ________
+    i = len(s) - 1
     while i >= 0:
          if s[i] in 'aeiouAEIOU':
              return s[i]
