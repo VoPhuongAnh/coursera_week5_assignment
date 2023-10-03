@@ -11,7 +11,7 @@
 # print(colors)
 grade = [65, 78, 101, 88, 55, 78]
 
-#sort the list from smallest to largest
+# sort the list from smallest to largest
 grade.sort()
 print(grade)
 
@@ -22,4 +22,10 @@ print(grade)
 print(grade.count(78))
 print(grade.index(101))
 
+if 202 in grade:
+    position = grade.index(202)
+    print(grade.pop(position))
 
+grades = [80, 70, 60, 90]
+grades.sort()
+grades.insert(1, 95)
